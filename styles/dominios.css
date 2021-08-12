@@ -1,0 +1,130 @@
+#dominios
+{
+height: 100vh;
+padding: 10vh 0 0 0;
+/*background-color: blue;*/
+/*border: solid black 2px;*/
+}
+
+#section-tittle
+{
+text-align: center;
+font-size: 4vw;
+padding-top: 2vh;
+font-family: sans-serif;
+}
+/*First Square*/
+	#first-plan
+	{
+	position: absolute;
+	margin-top: 5vh;
+	margin-left: 38%;
+	border: solid black 2px;
+	border-radius: 20px;
+	height: 70vh;
+	width: 25vw;
+	box-shadow: 0px 6px 15px 3px;
+	background-color: rgb(21, 25, 250);
+	z-index: 2;
+	}
+	#first-tittle
+	{
+	margin-top: 2vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	font-size: 2vw;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	}
+	#first-link
+	{
+	margin-top: 5vh;
+	font-size: 2vw;
+	text-align: center;
+	font-family: monospace;
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	}
+	#f-info
+	{
+	font-size: 1.8vw;
+	text-align: center;
+	margin: 8vh 2vw 0 2vw;
+	color: rgb(255, 255, 255);
+	}	
+/*Second Square*/
+	#second-plan
+	{
+	position: absolute;
+	margin-left: 19%;
+	border: solid black 2px;
+	background-color: rgb(78, 109, 248);
+	border-radius: 20px;
+	margin-top: 10vh;
+	height: 60vh;
+	width: 20vw;
+	z-index: 1;
+	color: rgb(255, 255, 255);
+	}
+	#second-tittle
+	{
+	margin-top: 2vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	font-size: 2vw;
+	text-align: center;
+	}
+	#second-link
+	{
+	margin-top: 5vh;
+	font-size: 2vw;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bolder;
+	color: rgb(0, 0, 0);
+	}
+	#s-info
+	{
+	font-size: 1.5vw;
+	text-align: center;
+	margin: 8vh 2vw 0 2vw;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	}
+/*Third Square*/
+	#third-plan
+	{
+	margin-top: 10vh;
+	height: 60vh;
+	position: absolute;
+	margin-left: 62%;
+	background-color: rgb(78, 109, 248);
+	border: solid black 2px;
+	border-radius: 20px;
+	width: 20vw;
+	color: rgb(255, 255, 255);
+	z-index: 1;
+	}
+	#third-tittle
+	{
+	margin-top: 2vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	font-size: 2vw;
+	text-align: center;
+	}
+	#third-link
+	{
+	margin-top: 2vh;
+	font-size: 2vw;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bolder;
+	color: rgb(0, 0, 0);
+	}
+	#t-info
+	{
+	font-size: 1.3vw;
+	text-align: center;
+	margin: 2vh 1vw 0 2vw;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	}

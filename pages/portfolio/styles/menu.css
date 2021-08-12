@@ -1,0 +1,33 @@
+.topnav
+{
+overflow: hidden;
+background-color: rgba(6,27,33,255);
+height: 10vh;
+}
+	.topnav a
+		{
+		float: left;
+		display: block;
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		height: 100%;
+		z-index: 5;
+		text-align: center;
+		z-index: 10;
+		}
+	.topnav a:hover
+		{
+		background-color: white;
+		color: black;
+		}
+
+
+@media screen and (max-width: 800px)
+{
+	.topnav
+	{
+	display: none;
+	}	
+}
