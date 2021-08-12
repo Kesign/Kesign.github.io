@@ -1,0 +1,57 @@
+header
+{
+height: 100vh;
+padding: 30vh 0 0 0;
+/*background-color: blue;*/
+/*border: solid black 2px;*/
+}
+	header h1
+	{
+	position: absolute;
+	margin: 5vh 0 0 10vw;
+	width: 35vw;
+	font-size: 10vw;
+	text-align: center;
+	/*border: solid black 2px;*/
+	}
+	header h2
+	{
+	font-family: serif;
+	width: 45vw;
+	text-align: center;
+	font-size: 8vw;
+	margin: 0 0 0 50vw;
+	/*border: solid black 2px;*/
+	}
+/*RESPONSIVE HEADER*/
+	@media screen and (max-width: 600px)
+	{
+		header h1
+		{
+		font-size: 15vw;
+		margin: 0 0 0 15vw;
+		width: 70vw;
+		}
+		header h2
+		{
+		font-size: 8vw;
+		width: 60vw;
+		margin: 25vh 0 0 20vw;
+		}
+	}
+	@media screen and (max-width: 400px)
+	{
+		header h1
+		{
+		font-size: 20vw;
+		margin: 0 0 0 15vw;
+		width: 70vw;
+		}
+		header h2
+		{
+		font-size: 12vw;
+		width: 70vw;
+		margin: 20vh 0 0 15vw;
+		}
+	}
+/**/

@@ -1,0 +1,96 @@
+.sobre-mi
+{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 90vh;
+background: white;
+flex-direction: column;
+width: 100%;
+}
+
+.animation
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+	@keyframes showAnimation
+	{
+	  from
+	  {
+	  transform: translate(0, 100px);
+	  opacity: 0;
+	  }
+	  to
+	  {
+	  transform: translate(0, 0);
+	  opacity: 1;
+	  }
+	}
+
+	.animation div
+	{
+	max-width: 70%;
+	width: 100%;
+	}
+	.animation div h2,
+	.animation div p
+	{
+	line-height: 6vh;
+	}
+	.animation div h2
+	{
+	font-size: 4vw;
+	margin-bottom: 20px;
+	}
+	.animation div p
+	{
+	font-size: 2vw;
+	}
+
+@media screen and (max-width: 800px)
+{
+	.sobre-mi
+	{
+	height: 100vh;
+	}
+	.animation div
+	{
+	max-width: 90%;
+	}
+	.animation div h2
+	{
+	font-size: 5vw;
+	}
+	.animation div p
+	{
+	font-size: 2.5vw;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.animation div h2
+	{
+	font-size: 7vw;
+	}
+	.animation div p
+	{
+	font-size: 3.5vw;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.animation div h2
+	{
+	font-size: 9vw;
+	}
+	.animation div p
+	{
+	font-size: 4.5vw;
+	}
+}
+
