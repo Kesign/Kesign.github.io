@@ -1,0 +1,479 @@
+/*Nosotros*/
+	#nosotros
+	{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color: #FFFFFF;
+	}
+		#nosotros h1
+		{
+		width: 100%;
+		font-size: 4vw;
+		padding: 2.5vh 0 2.5vh 0;
+		text-align: center;
+		color: #0C2C44;
+		}
+		.p1
+		{
+		position: relative;
+		width: 60%;
+		font-size: 2.5vw;
+		text-align: justify;
+		left: 50%;
+		transform: translate(-50%, 0);
+		color: #0C2C44;
+		}
+	.bcon
+	{
+	position: absolute;
+	bottom: 20vh;
+	margin: 0 25% 0 25%;
+	width: block;
+	width: 50%;
+	padding: 2.5vh 0 2.5vh 0;
+	border: solid white 2px;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 2.5vw;
+	background-color: #0C2C44;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+/*Responsive*/
+	@media screen and (max-width: 800px)
+	{
+		#nosotros h1
+		{
+		font-size: 5vw;
+		}
+		.p1
+		{
+		font-size: 3.5vw;
+		width: 70%;
+		}
+		.bcon
+		{
+		bottom: 15vh;
+		font-size: 3.5vw;
+		}
+	}
+	@media screen and (max-width: 700px)
+	{
+		#nosotros h1
+		{
+		font-size: 5.5vw;	
+		}
+		.p1
+		{
+		font-size: 4vw;
+		width: 70%;
+		}
+		.bcon
+		{
+		font-size: 4vw;
+		}
+	}
+	@media screen and (max-width: 600px)
+	{
+		#nosotros h1
+		{
+		font-size: 6vw;	
+		}
+		.p1
+		{
+		font-size: 4.5vw;
+		width: 70%;
+		}
+		.bcon
+		{
+		font-size: 4.5vw;
+		}
+	}
+	@media screen and (max-width: 500px)
+	{
+		#nosotros h1
+		{
+		font-size: 7vw;	
+		}
+		.p1
+		{
+		font-size: 5vw;
+		width: 70%;
+		}
+		.bcon
+		{
+		font-size: 5vw;
+		}
+	}
+	@media screen and (max-width: 400px)
+	{
+		#nosotros h1
+		{
+		font-size: 9vw;	
+		}
+		.p1
+		{
+		font-size: 5.5vw;
+		width: 80%;
+		}
+		.bcon
+		{
+		margin: 0 15% 0 15%;
+		width: 70%;
+		font-size: 5.5vw;
+		}
+	}
+	@media screen and (max-width: 300px)
+	{
+		#nosotros h1
+		{
+		font-size: 10vw;	
+		}
+		.p1
+		{
+		font-size: 6.5vw;
+		width: 80%;
+		}
+		.bcon
+		{
+		margin: 0 15% 0 15%;
+		width: 70%;
+		font-size: 6.5vw;
+		}
+	}
+
+/*Beneficios*/
+	#beneficios
+	{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color: #0C2C44;
+	}
+		#beneficios h2
+		{
+		width: 100%;
+		font-size: 4vw;
+		padding: 5vh 0 4vh 0;
+		text-align: center;
+		color: #FFFFFF;
+		}
+		.dben
+		{
+		position: relative;
+		float: left;
+		height: 80vh;
+		width: calc(100%/4);
+		border-radius: 15px;
+		}
+			.dben p
+			{
+			font-size: 1.8vw;
+			text-align: center;
+			padding: 2vh 1.5vw 0 1.5vw;
+			color: #FFFFFF;
+			}
+			.dben img
+			{
+			position: relative;
+			display: block;
+			margin: auto;
+			width: 50%;
+			}
+/*Responsive*/
+	@media screen and (max-width: 700px)
+	{
+		#beneficios
+		{
+		height: 250vh;
+		}
+			#beneficios h2
+			{
+			font-size: 6vw;
+			padding: 5vh 0 4vh 0;
+			}
+			.dben
+			{
+			position: relative;
+			display: block;
+			margin: 0 auto 0 auto;
+			width: 80%;
+			float: none;
+			height: calc(230vh/4);
+			border-radius: 15px;
+			}
+				.dben p
+				{
+				font-size: 4vw;
+				text-align: center;
+				}
+				.dben img
+				{
+				width: 15%;
+				}
+	}
+	@media screen and (max-width: 500px)
+	{
+		#beneficios
+		{
+		height: 250vh;
+		}
+			#beneficios h2
+			{
+			font-size: 10vw;
+			padding: 5vh 0 4vh 0;
+			}
+			.dben
+			{
+			position: relative;
+			display: block;
+			margin: 0 auto 0 auto;
+			width: 80%;
+			float: none;
+			height: calc(230vh/4);
+			border-radius: 15px;
+			}
+				.dben p
+				{
+				font-size: 5vw;
+				text-align: center;
+				}
+				.dben img
+				{
+				width: 20%;
+				}
+	}
+	@media screen and (max-width: 300px)
+	{
+		#beneficios
+		{
+		height: 250vh;
+		}
+			#beneficios h2
+			{
+			font-size: 12vw;
+			padding: 5vh 0 4vh 0;
+			}
+			.dben
+			{
+			position: relative;
+			display: block;
+			margin: 0 auto 0 auto;
+			width: 80%;
+			float: none;
+			height: calc(230vh/4);
+			border-radius: 15px;
+			}
+				.dben p
+				{
+				font-size: 7vw;
+				text-align: center;
+				}
+				.dben img
+				{
+				width: 25%;
+				}
+	}
+
+/*Dominios*/
+	#dominios
+	{
+	height: 100vh;
+	width: 100%;
+	background-color: #FFFFFF;
+	}
+		#dominios h3
+		{
+		width: 100%;
+		font-size: 4vw;
+		padding: 5vh 0 4vh 0;
+		text-align: center;
+		color: #0C2C44;
+		}
+		.ddom
+		{
+		position: relative;
+		float: left;
+		height: 80vh;
+		width: calc(100%/3);
+		border-radius: 15px;
+		color: #0C2C44;
+		}
+		.price
+		{
+		font-size: 5vw;
+		width: 100%;
+		text-align: center;
+		padding: 2vh 0 5vh 0;
+		}
+		.des
+		{
+		font-size: 2vw;
+		width: 100%;
+		text-align: center;
+		padding: 2vh 2vw 0 2vw;
+		}
+		.pdes
+		{
+		position: relative;
+		margin: 0 auto 0 auto;
+		display: block;
+		font-size: 1.8vw;
+		width: 80%;
+		text-align: left;
+		padding: 1vh 0 1vh 0;
+		}
+			.pdesi
+			{
+			position: relative;
+			height: 5vh;
+			float: left;
+			margin: 0 1vw 0 1vw;
+			}
+/*Responsive*/
+	@media screen and (max-width: 900px)
+	{
+		#dominios
+		{
+		height: 100vh;
+		width: 100%;
+		background-color: #FFFFFF;
+		}
+			#dominios h3
+			{
+			width: 100%;
+			font-size: 6vw;
+			padding: 5vh 0 4vh 0;
+			text-align: center;
+			color: #0C2C44;
+			}
+			.ddom
+			{
+			position: relative;
+			float: left;
+			height: 80vh;
+			width: calc(100%/3);
+			border-radius: 15px;
+			color: #0C2C44;
+			}
+			.price
+			{
+			font-size: 5vw;
+			}
+			.des
+			{
+			font-size: 2.5vw;
+			}
+			.pdes
+			{
+			font-size: 2.5vw;
+			width: 80%;
+			padding: 1.5vh 0 1.5vh 0;
+			}
+				.pdesi
+				{
+				position: relative;
+				height: 5vh;
+				float: left;
+				margin: 0 1vw 0 1vw;
+				}
+	}
+	@media screen and (max-width: 600px)
+	{
+		#dominios
+		{
+		height: 200vh;
+		}
+			#dominios h3
+			{
+			font-size: 6vw;
+			}
+			.ddom
+			{
+			position: relative;
+			float: left;
+			height: calc(180vh/3);
+			width: 100%;
+			border-radius: 15px;
+			color: #0C2C44;
+			}
+			.price
+			{
+			font-size: 7vw;
+			padding: 0;
+			}
+			.des
+			{
+			font-size: 5vw;
+			width: 100%;
+			text-align: center;
+			padding: 2vh 2vw 0 2vw;
+			}
+			.pdes
+			{
+			position: relative;
+			margin: 0 auto 0 auto;
+			display: block;
+			font-size: 4.5vw;
+			width: 80%;
+			text-align: left;
+			padding: 1vh 0 1vh 0;
+			}
+				.pdesi
+				{
+				position: relative;
+				height: 5vh;
+				float: left;
+				margin: 0 1vw 0 1vw;
+				}
+	}
+	@media screen and (max-width: 400px)
+	{
+	#dominios
+	{
+	height: 200vh;
+	}
+		#dominios h3
+		{
+		font-size: 10vw;
+		}
+		.ddom
+		{
+		position: relative;
+		float: left;
+		height: calc(180vh/3);
+		width: 100%;
+		border-radius: 15px;
+		color: #0C2C44;
+		}
+		.price
+		{
+		font-size: 10vw;
+		padding: 0;
+		}
+		.des
+		{
+		font-size: 7vw;
+		width: 100%;
+		text-align: center;
+		padding: 2vh 2vw 0 2vw;
+		}
+		.pdes
+		{
+		position: relative;
+		margin: 0 auto 0 auto;
+		display: block;
+		font-size: 6vw;
+		width: 80%;
+		text-align: left;
+		padding: 1vh 0 1vh 0;
+		}
+			.pdesi
+			{
+			position: relative;
+			height: 5vh;
+			float: left;
+			margin: 0 1vw 0 1vw;
+			}
+	}

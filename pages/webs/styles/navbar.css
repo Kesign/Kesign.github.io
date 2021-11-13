@@ -1,0 +1,223 @@
+nav
+{
+position: fixed;
+width: 100%;
+height: 15vh;
+transition: 0.3s;
+z-index: 99;
+}
+
+#logo
+{
+position: absolute;
+height: 60%;
+top: 50%;
+left: 1vw;
+transform: translate(0, -50%);
+}
+
+span
+{
+position: relative;
+float: right;
+font-size:3vw;
+top: 50%;
+right: 1.5vw;
+font-weight: bold;
+color: #00B5AC;
+cursor: pointer;
+padding: 0 0 0 2vw;
+transform: translate(0, -50%);
+}
+
+.rnav
+{
+position: relative;
+top: 50%;
+height: 50%;
+padding: 0 1vw 0 1vw;
+float: right;
+transform: translate(0, -50%);
+}
+
+.nav
+{
+position: fixed;
+height: 100%;
+width: 0;
+top: 0;
+right: 0;
+overflow-x: hidden;
+transition: 0.5s;
+padding: 10vh 0 0 0;
+background-color: rgba(0, 0, 0, 0.9);
+z-index: 99;
+}
+
+.nav::-webkit-scrollbar
+{
+display: none;
+}
+
+.nava
+{
+position: relative;
+margin: auto;
+padding: 1.5vh 0 1.5vh 0;
+text-align: center;
+text-decoration: none;
+font-size: 2.5vw;
+cursor: pointer;
+color: #FFFFFF;
+display: block;
+background: transparent;
+width: 100%;
+}
+
+.active
+{
+border-bottom: solid white 2px;
+}
+
+.nava.pag
+{
+color: white;
+}
+.nava.pag:hover
+{
+border-bottom: solid white 2px;
+}
+
+.nava.page
+{
+color: lightgreen;
+}
+.nava.page:hover
+{
+border-bottom: solid lightgreen 2px;
+}
+
+.nava.pageo
+{
+color: cyan;
+}
+.nava.pageo:hover
+{
+border-bottom: solid cyan 2px;
+}
+
+.nava.pageoo
+{
+color: red;
+}
+.nava.pageoo:hover
+{
+border-bottom: solid red 2px;
+}
+
+.closebtn
+{
+position: absolute;
+top: 0;
+right: 1vw;
+font-size: 4vw;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+@media screen and (max-width: 900px)
+{
+	span
+	{
+	font-size:5vw;
+	}
+	.closebtn
+	{
+	font-size: 8vw;
+	}
+	.rnav, #logo
+	{
+	height: 50%;
+	}
+	.nava
+	{
+	font-size: 3.5vw;
+	}
+}
+@media screen and (max-width: 700px)
+{
+	span
+	{
+	font-size:5vw;
+	}
+	.closebtn
+	{
+	font-size: 8vw;
+	}
+	.rnav, #logo
+	{
+	height: 50%;
+	}
+	.nava
+	{
+	font-size: 4.5vw;
+	}
+}
+@media screen and (max-width: 600px)
+{
+	span
+	{
+	font-size:7vw;
+	}
+	.closebtn
+	{
+	font-size: 12vw;
+	}
+	.rnav, #logo
+	{
+	height: 40%;
+	}
+	.nava
+	{
+	font-size: 5vw;
+	}
+}
+@media screen and (max-width: 400px)
+{
+	span
+	{
+	font-size:10vw;
+	}
+	.closebtn
+	{
+	font-size: 16vw;
+	}
+	.rnav, #logo
+	{
+	height: 40%;
+	}
+	.nava
+	{
+	font-size: 6.5vw;
+	}
+}
+@media screen and (max-width: 300px)
+{
+	span
+	{
+	font-size:12vw;
+	}
+	.closebtn
+	{
+	font-size: 20vw;
+	}
+	.rnav, #logo
+	{
+	height: 40%;
+	}
+	.nava
+	{
+	font-size: 6.5vw;
+	}
+}

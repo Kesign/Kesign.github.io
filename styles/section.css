@@ -1,0 +1,492 @@
+/*Servicios*/
+	#services
+	{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color: #0C2C44;
+	}
+	#services h2
+	{
+	position: absolute;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 4.5vw;
+	padding: 3vh 0 3vh 0;
+	}
+	.services
+	{
+	position: relative;
+	height: 70vh;
+	width: 25%;
+	left: 20%;
+	margin: 0 2vw 0 2vw;
+	top: 55%;
+	float: left;
+	border-radius: 15px;
+	transform: translate(-50%, -50%);
+	background-color: #284157;
+	transition: 0.3s;
+	}
+	.services:hover
+	{
+	background-color: #FFFFFF;
+	}
+	.services:hover .stser, .services:hover .pser, .services:hover .pser a
+	{
+	color: #0C2C44;
+	}
+	.services:hover .binfo
+	{
+	background-color: #0C2C44;
+	color: #FFFFFF;
+	}
+
+
+
+	.fser
+	{
+	position: relative;
+	height: 20vh;
+	width: 100%;
+	}
+	.fser img
+	{
+	position: absolute;
+	height: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	.stser
+	{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	font-size: 2vw;
+	padding: 1vh 0 1vh 0;
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+	.pser
+	{
+	position: relative;
+	text-align: justify;
+	width: 100%;
+	font-size: 1.5vw;
+	padding: 0 1vw 0 1vw;
+	color: rgb(255, 255, 255);
+	}
+		.pser a
+		{
+		color: rgb(255, 255, 255);
+		}
+	.binfo
+	{
+	position: absolute;
+	bottom: 4vh;
+	margin: 0 15% 0 15%;
+	width: block;
+	width: 70%;
+	padding: 1vh 0 1vh 0;
+	border: solid white 2px;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 1.8vw;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	color: #0C2C44;
+	}
+/*Responsive*/
+	@media screen and (max-width: 900px)
+	{
+		#services
+		{
+		height: 100vh;
+		}
+		#services h2
+		{
+		width: 100%;
+		font-size: 4.5vw;
+		padding: 3vh 0 3vh 0;
+		}
+		.services
+		{
+		position: relative;
+		height: 80vh;
+		width: 25%;
+		left: 20%;
+		margin: 0 2vw 0 2vw;
+		top: 50%;
+		float: left;
+		border-radius: 15px;
+		transform: translate(-50%, -50%);
+		background-color: #284157;
+		transition: 0.3s;
+		}
+		.fser
+		{
+		position: relative;
+		height: 20vh;
+		width: 100%;
+		}
+			.fser img
+			{
+			position: absolute;
+			height: 80%;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			}
+		.stser
+		{
+		position: relative;
+		text-align: center;
+		width: 100%;
+		font-size: 3vw;
+		padding: 1vh 0 1vh 0;
+		color: #FFFFFF;
+		font-weight: bold;
+		}
+		.pser
+		{
+		position: relative;
+		text-align: justify;
+		width: 100%;
+		font-size: 2vw;
+		padding: 0 1vw 0 1vw;
+		color: rgb(255, 255, 255);
+		}
+			.pser a
+			{
+			color: rgb(255, 255, 255);
+			}
+		.binfo
+		{
+		position: absolute;
+		bottom: 4vh;
+		margin: 0 15% 0 15%;
+		width: block;
+		width: 70%;
+		padding: 1vh 0 1vh 0;
+		border: solid white 2px;
+		border-radius: 15px;
+		text-align: center;
+		font-size: 2.5vw;
+		background-color: #FFFFFF;
+		text-decoration: none;
+		color: #0C2C44;
+		}
+	}
+	@media screen and (max-width: 800px)
+	{
+		#services
+		{
+		height: 320vh;
+		}
+		#services h2
+		{
+		font-size: 7vw;
+		padding: 3vh 0 3vh 0;
+		}
+		.services
+		{
+		position: relative;
+		height: 90vh;
+		width: 80%;
+		left: 50%;
+		margin: 5vh 0 5vh 0;
+		top: 20%;
+		}
+		.fser
+		{
+		position: relative;
+		height: 25vh;
+		}
+		.stser
+		{
+		font-size: 5vw;
+		padding: 1vh 0 1vh 0;
+		}
+		.pser
+		{
+		position: relative;
+		text-align: justify;
+		width: 100%;
+		font-size: 3.5vw;
+		padding: 0 5vw 0 5vw;
+		color: rgb(255, 255, 255);
+		}
+		.binfo
+		{
+		position: absolute;
+		bottom: 4vh;
+		padding: 1vh 0 1vh 0;
+		font-size: 3.5vw;
+		}
+	}
+	@media screen and (max-width: 600px)
+	{
+		#services
+		{
+		height: 320vh;
+		}
+		#services h2
+		{
+		font-size: 8vw;
+		padding: 3vh 0 3vh 0;
+		}
+		.services
+		{
+		position: relative;
+		height: 90vh;
+		width: 80%;
+		left: 50%;
+		margin: 5vh 0 5vh 0;
+		top: 20%;
+		}
+		.fser
+		{
+		position: relative;
+		height: 25vh;
+		}
+		.stser
+		{
+		font-size: 7vw;
+		padding: 1vh 0 1vh 0;
+		}
+		.pser
+		{
+		position: relative;
+		text-align: justify;
+		width: 100%;
+		font-size: 4vw;
+		padding: 0 5vw 0 5vw;
+		color: rgb(255, 255, 255);
+		}
+		.binfo
+		{
+		position: absolute;
+		bottom: 4vh;
+		padding: 1vh 0 1vh 0;
+		font-size: 4vw;
+		}
+	}
+	@media screen and (max-width: 500px)
+	{
+		#services
+		{
+		height: 340vh;
+		}
+		#services h2
+		{
+		font-size: 10vw;
+		padding: 3vh 0 3vh 0;
+		}
+		.services
+		{
+		position: relative;
+		height: 95vh;
+		width: 80%;
+		left: 50%;
+		margin: 5vh 0 5vh 0;
+		top: 20%;
+		}
+		.fser
+		{
+		position: relative;
+		height: 25vh;
+		}
+		.stser
+		{
+		font-size: 9vw;
+		padding: 1vh 0 1vh 0;
+		}
+		.pser
+		{
+		position: relative;
+		text-align: justify;
+		width: 100%;
+		font-size: 5vw;
+		padding: 0 5vw 0 5vw;
+		color: rgb(255, 255, 255);
+		}
+		.binfo
+		{
+		position: absolute;
+		bottom: 4vh;
+		padding: 1vh 0 1vh 0;
+		font-size: 5vw;
+		}
+	}
+	@media screen and (max-width: 300px)
+	{
+		#services
+		{
+		height: 340vh;
+		}
+		#services h2
+		{
+		font-size: 10vw;
+		padding: 3vh 0 3vh 0;
+		}
+		.services
+		{
+		position: relative;
+		height: 95vh;
+		width: 80%;
+		left: 50%;
+		margin: 5vh 0 5vh 0;
+		top: 20%;
+		}
+		.fser
+		{
+		position: relative;
+		height: 25vh;
+		}
+		.stser
+		{
+		font-size: 10vw;
+		padding: 1vh 0 1vh 0;
+		}
+		.pser
+		{
+		position: relative;
+		text-align: justify;
+		width: 100%;
+		font-size: 6.5vw;
+		padding: 0 5vw 0 5vw;
+		color: rgb(255, 255, 255);
+		}
+		.binfo
+		{
+		position: absolute;
+		bottom: 4vh;
+		padding: 1vh 0 1vh 0;
+		font-size: 6.5vw;
+		}
+	}
+
+/*Mision y Visión*/
+	#mision
+	{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color: #FFFFFF;
+	}
+	.l
+	{
+	position: absolute;
+	height: 70vh;
+	border: solid #0C2C44 2px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	.dm
+	{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: calc(100%/2);
+	}
+	.dm p
+	{
+	position: absolute;
+	text-align: center;
+	font-size: 2.5vw;
+	color: #0C2C44;
+	width: 90%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+/*Responsive*/
+	@media screen and (max-width: 900px)
+	{
+		#mision
+		{
+		height: 100vh;
+		}
+		.l
+		{
+		position: absolute;
+		height: 70vh;
+		border: solid #0C2C44 2px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		}
+		.dm
+		{
+		float: left;
+		height: 100%;
+		width: calc(100%/2);
+		}
+		.dm p
+		{
+		font-size: 3.5vw;
+		width: 90%;
+		}
+	}
+	@media screen and (max-width: 700px)
+	{
+		.dm p
+		{
+		font-size: 4vw;
+		width: 90%;
+		}
+	}
+	@media screen and (max-width: 600px)
+	{
+		.dm p
+		{
+		font-size: 4.5vw;
+		width: 90%;
+		}
+	}
+	@media screen and (max-width: 500px)
+	{
+		.dm p
+		{
+		font-size: 5vw;
+		width: 90%;
+		}
+	}
+	@media screen and (max-width: 400px)
+	{
+		#mision
+		{
+		height: 100vh;
+		}
+		.l
+		{
+		display: none;
+		height: 0;
+		width: 0;border: none;
+		}
+		.dm
+		{
+		position: relative;
+		top: 0;
+		height: calc(100%/2);
+		width: 100%;
+		}
+		.dm p
+		{
+		position: absolute;
+		font-size: 6vw;
+		width: 90%;
+		}
+	}
+	@media screen and (max-width: 300px)
+	{
+		.dm p
+		{
+		position: absolute;
+		font-size: 7vw;
+		width: 90%;
+		}
+	}
